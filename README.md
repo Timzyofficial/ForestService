@@ -64,6 +64,7 @@ CREATE TABLE IF NOT EXISTS public."SIGHTINGS"
     "ENGANGERED_ANIMAL_ID" integer,
     "LOCATION" character varying(50) COLLATE pg_catalog."default" NOT NULL,
     "RANGER_NAME" character varying(300) COLLATE pg_catalog."default" NOT NULL,
+    "TIMESTAMP" timestamp without time zone, 
     CONSTRAINT "SIGHTINGS_pkey" PRIMARY KEY ("ID")
 )
 
